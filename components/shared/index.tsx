@@ -6,3 +6,4 @@ import { SortPopup } from './sort-popup';
 import { TopBar } from './top-bar';
 import { Filters } from './filters';
 import { FilterCheckbox } from './filter-checkbox';
+import { ProductCard } from './product-card';

@@ -1,9 +1,10 @@
 import React from 'react';
-import { cn } from '@/lib/utils';
+import { ArrowRight, ShoppingCart, User } from 'lucide-react';
 import Image from 'next/image';
+import { cn } from '@/lib/utils';
+
 import { Container } from './container';
 import { Button } from '../ui/button';
-import { ArrowRight, ShoppingCart, User } from 'lucide-react';
 
 interface Props {
   className?: string;
@@ -15,7 +16,7 @@ export const Header: React.FC<Props> = ({ className }) => {
       <Container className='flex items-center justify-between py-8'>
         {/*Left side*/}
         <div className='flex items-center gap-4'>
-          <Image src='/app/fonts/pizza-logo.svg' alt='Logo' width={35} height={35} />
+          <Image src='/app/fonts/pizza-logo.png' alt='Logo' width={35} height={35} />
           <div>
             <h1 className='text-2xl uppercase font-black'>Next Pizza</h1>
             <p className='text-sm text-gray-400 leading-3'>вкусней уже некуда</p>
